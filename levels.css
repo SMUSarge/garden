@@ -76,3 +76,92 @@
 }
 
 /* Level 6 */
+#level-6 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+#level-6 .carrots {
+  grid-column: 1 / -1;
+  grid-row: 1 / span 1;
+}
+#level-6 .onions {
+  grid-column: 1 / span 1;
+  grid-row: 2 / 4;
+}
+#level-6 .peas {
+  grid-column: 2 / span 3;
+  grid-row: 2 / span 2;
+}
+#level-6 .tomatoes {
+  grid-row: 2 / span 2;
+}
+#level-6 .lettuce {
+  grid-column: 1 / -1;
+}
+
+/* Level 7 */
+
+#level-7 {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(5ch, 1fr));
+}
+
+/* Level-8  */
+
+#level-8 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 15ch);
+  grid-auto-rows: 5ch;
+  grid-template-rows: repeat(4, 1fr);
+}
+#level-8 .peas {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+#level-8 .onions {
+  grid-column: 3 / span 2;
+  grid-row: 1 / span 2;
+}
+#level-8 .tomatoes {
+  grid-column: 5 / span 2;
+  grid-row: 1 / span 2;
+}
+
+#level-8 .lettuce {
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 2;
+}
+#level-8 .carrots {
+  grid-column: 3 / span 2;
+  grid-row: 3 / span 2;
+}
+#level-8 .peasx {
+  grid-column: 5 / span 2;
+  grid-row: 3 / span 2;
+}
+#level-8 .onionsx {
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 2;
+}
+#level-8 .tomatoesx {
+  grid-column: 3 / span 2;
+  grid-row: 5 / span 2;
+}
+#level-8 .lettucex {
+  grid-column: 5 / span 2;
+  grid-row: 5 / span 2;
+}
+#level-8 .carrotsx {
+  grid-column: 1 / span 2;
+  grid-row: 7 / span 2;
+}
+/* Level 9 */
+
+#level-9 {
+  display: grid;
+  grid-template-columns: repeat(7, 5rem);
+
+  grid-auto-rows: 5rem;
+}
